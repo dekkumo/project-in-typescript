@@ -1,0 +1,25 @@
+.header {
+  position: absolute;
+  top: -85px;
+  right: 0;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+.container__link {
+  padding-right: 50px;
+}
+.link {
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 18px;
+  color: #d47006;
+  margin-right: 20px;
+  transition: all 0.3s ease 0s;
+}
+.link:hover {
+  color: #de8d35;
+}
+.link:last-child {
+  margin-right: 0px;
+}

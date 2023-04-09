@@ -1,0 +1,36 @@
+.container__todos {
+}
+.container__modal {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.btn__container {
+  display: flex;
+  gap: 20px;
+}
+.input__modal {
+  max-width: 340px;
+  width: 100%;
+  height: 30px;
+  margin-bottom: 15px;
+  border-radius: 10px;
+  border: 1px solid #d47006;
+  color: #366d6f;
+  padding: 0 15px;
+}
+.btn__modal {
+  width: 70px;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: #d47006;
+  color: #fff;
+  transition: all 0.5s ease 0s;
+}
+.btn__modal:last-child {
+  margin-right: 0px;
+}
+.btn__modal:hover {
+  background-color: #bc5c00;
+  cursor: pointer;
+}
